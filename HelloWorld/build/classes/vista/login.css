@@ -1,0 +1,214 @@
+.root{
+    -fx-background-color:white;
+}
+
+/* PANEL IZQUIERDO */
+/*
+.banner-pane{
+    -fx-background-color:rgba(68, 196, 13,0.8);
+}
+*/
+/* LOGO */
+
+.logo{
+    -fx-text-fill:white;
+    -fx-font-size:80px;
+    -fx-font-weight:bold;
+}
+
+/* TITULO */
+
+.banner-title{
+    -fx-text-fill:white;
+    -fx-font-size:72px;
+    -fx-font-weight:900;
+}
+
+/* SUBTITULO */
+
+.banner-subtitle{
+    -fx-text-fill:white;
+    -fx-font-size:20px;
+    -fx-line-spacing:5;
+}
+
+/* FOOTER */
+
+.footer-text{
+    -fx-text-fill:rgba(255,255,255,0.7);
+    -fx-font-size:18px;
+}
+
+/* PANEL LOGIN */
+
+.login-pane{
+    -fx-background-color:white;
+}
+
+/* NOMBRE APP */
+
+.app-name{
+    -fx-font-size:22px;
+    -fx-font-weight:bold;
+}
+
+/* TITULO LOGIN */
+
+.welcome{
+    -fx-font-size:30px;
+    -fx-font-weight:bold;
+}
+
+/* DESCRIPCION */
+
+.descripcion{
+    -fx-font-size:15px;
+    -fx-text-fill:#666666;
+}
+
+/* INPUTS */
+
+.text-field,
+.password-field{
+
+    -fx-background-color:transparent;
+
+    -fx-border-width:0 0 1.5 0;
+
+    -fx-border-color:#BDBDBD;
+
+    -fx-font-size:16px;
+
+    -fx-padding:12 0 12 0;
+
+    -fx-background-insets:0;
+}
+
+/* BOTON LOGIN */
+
+.login-button{
+
+    -fx-background-color:#111111;
+    -fx-text-fill:white;
+
+    -fx-font-size:15px;
+    -fx-font-weight:bold;
+
+    -fx-pref-height:50px;
+    -fx-pref-width:350px;
+
+    -fx-background-radius:8;
+
+    -fx-cursor:hand;
+}
+
+.login-button:hover{
+
+    -fx-background-color:#2d2d2d;
+
+    -fx-scale-x:1.02;
+    -fx-scale-y:1.02;
+
+    -fx-effect:dropshadow(
+        gaussian,
+        rgba(0,0,0,0.25),
+        12,
+        0,
+        0,
+        3
+    );
+}
+
+.login-button:pressed{
+
+    -fx-background-color:#000000;
+
+    -fx-scale-x:0.98;
+    -fx-scale-y:0.98;
+
+    -fx-effect:dropshadow(
+        gaussian,
+        rgba(0,0,0,0.10),
+        4,
+        0,
+        0,
+        1
+    );
+}
+
+/* BOTON SALIR */
+
+.exit-button{
+
+    -fx-background-color:white;
+
+    -fx-border-color:#D9D9D9;
+
+    -fx-border-radius:8;
+    -fx-background-radius:8;
+
+    -fx-pref-height:50px;
+    -fx-pref-width:350px;
+
+    -fx-font-size:15px;
+
+    -fx-cursor:hand;
+}
+
+/* Hover */
+
+.exit-button:hover{
+
+    -fx-background-color:#FF160A;
+
+    -fx-text-fill:white;
+
+    -fx-border-color:#FF160A;
+
+    -fx-scale-x:1.02;
+    -fx-scale-y:1.02;
+    
+    -fx-effect:dropshadow(
+        gaussian,
+        rgba(0,0,0,0.25),
+        12,
+        0,
+        0,
+        3
+    );
+}
+
+/* Click */
+
+.exit-button:pressed{
+
+    -fx-background-color:#C70000;
+
+    -fx-text-fill:white;
+
+    -fx-border-color:#C70000;
+
+    -fx-scale-x:0.98;
+    -fx-scale-y:0.98;
+    
+    -fx-effect:dropshadow(
+        gaussian,
+        rgba(0,0,0,0.10),
+        4,
+        0,
+        0,
+        1
+    );
+}
+
+/* LINK */
+
+.hyperlink{
+
+    -fx-text-fill:#111111;
+}
+
+.mensaje{
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
